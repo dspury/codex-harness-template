@@ -1,0 +1,6 @@
+{
+ "task_id": "task-001",
+ "objective": "implement authentication",
+ "brief": "docs/briefs/add-authentication.md",
+ "status": "in-progress"
+}
