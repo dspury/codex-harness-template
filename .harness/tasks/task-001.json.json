@@ -1,0 +1,10 @@
+{
+  "task_id": "task-001",
+  "title": "Implement minimal run log writer",
+  "status": "ready",
+  "brief": "docs/briefs/brief-001-run-log-writer.md",
+  "plan": "docs/exec-plans/plan-001-run-log-writer.md",
+  "priority": "low",
+  "type": "feature",
+  "created_at": "2026-03-10"
+}
