@@ -2,7 +2,7 @@
 
 > A local-first, file-based harness for structured Codex work.
 
-It keeps planning, execution, validation, and review state inside the repository instead of hidden chat history or external orchestration. The template is optimized for Codex's `AGENTS.md` workflow and a docs-first repository map.
+It keeps planning, execution, validation, and review state inside the repository instead of hidden chat history or external orchestration. The template is optimized for Codex's `AGENTS.md` workflow and a docs-first repository map, but it also works well with other coding agents such as Claude. If you are primarily using Gemini, use the Gemini-specific template instead.
 
 ## Quick Links
 
