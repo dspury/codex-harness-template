@@ -21,7 +21,7 @@ This is the intended quick-start path for most people. Manual setup is still doc
 - `ARCHITECTURE.md` for stable structure and constraints
 - `docs/briefs/` for task briefs
 - `docs/exec-plans/` for execution plans
-- `docs/generated/` for generated repo-facing summaries
+- `docs/generated/` for the small set of durable operator docs worth keeping in the public template
 - `.harness/tasks/` for active task packets
 - `.harness/runs/` for run records
 - `.harness/episodes/` for completion summaries
@@ -153,12 +153,9 @@ Episode records use the same append-safe naming rule.
 - bootstrap: `docs/generated/BOOTSTRAP_STEPS.md`
 - adoption checklist: `docs/generated/ADOPTION_CHECKLIST.md`
 - readiness check: `docs/generated/REPO_READINESS_CHECK.md`
-- phase wrap-up: `docs/generated/PHASE1_WRAPUP.md`
-- second-repo migration plan: `docs/generated/REPO2_MIGRATION_PLAN.md`
-- second-repo required files: `docs/generated/REPO2_REQUIRED_FILES.md`
-- second-repo first task guide: `docs/generated/REPO2_FIRST_TASK_GUIDE.md`
 
 ## Release Notes
 
 - The harness utilities use Python standard library modules only.
 - The project is released under the MIT License.
+- Historical migration notes and placeholder generated files have been removed from the public OSS surface.
