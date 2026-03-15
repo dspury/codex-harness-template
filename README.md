@@ -1,19 +1,39 @@
 # Codex Harness Template
 
-A local-first, file-based harness for structured Codex work.
+> A local-first, file-based harness for structured Codex work.
 
 It keeps planning, execution, validation, and review state inside the repository instead of hidden chat history or external orchestration. The template is optimized for Codex's `AGENTS.md` workflow and a docs-first repository map.
 
+## Quick Links
+
+- [Easy Mode](#easy-mode)
+- [Manual Setup](#manual-setup)
+- [Task Loop](#task-loop)
+- [Key Files](#key-files)
+- [Repository Layout](#repository-layout)
+
+## At a Glance
+
+| Area | Purpose |
+| --- | --- |
+| `AGENTS.md` | Primary Codex repo map |
+| `ARCHITECTURE.md` | Stable structure and constraints |
+| `docs/briefs/` | Task briefs |
+| `docs/exec-plans/` | Execution plans |
+| `.harness/` | Task, run, and episode artifacts |
+| `src/` | Small harness utilities |
+| `tests/` | Local validation |
+
 ## Easy Mode
 
-If you want the fastest path, do this:
+> Fastest path: copy the template into a working repo, paste one prompt into Codex, and let it adapt the harness to the real project.
 
 1. Copy this template into your working project.
 2. Open `docs/reference/EASY_MODE_SETUP_PROMPT.md`.
 3. Paste the prompt into Codex.
 4. Let Codex adapt the harness to your real repo structure, docs, and test commands.
 
-This is the intended quick-start path for most people. Manual setup is still documented below for teams that want tighter control.
+Manual setup is still documented below for teams that want tighter control.
 
 ## What You Get
 
@@ -112,12 +132,14 @@ Episode records use the same append-safe naming rule.
 
 ## Key Files
 
-- `AGENTS.md`: primary Codex repo map
-- `ARCHITECTURE.md`: stable repo structure and constraints
-- `docs/reference/EASY_MODE_SETUP_PROMPT.md`: copy-paste prompt for adapting the harness inside a real repo
-- `docs/generated/BOOTSTRAP_STEPS.md`: technical startup notes
-- `docs/generated/ADOPTION_CHECKLIST.md`: adoption checklist
-- `.harness/tasks/TASK_TEMPLATE.json`: task packet template
+| File | Purpose |
+| --- | --- |
+| `AGENTS.md` | Primary Codex repo map |
+| `ARCHITECTURE.md` | Stable repo structure and constraints |
+| `docs/reference/EASY_MODE_SETUP_PROMPT.md` | Copy-paste prompt for adapting the harness inside a real repo |
+| `docs/generated/BOOTSTRAP_STEPS.md` | Technical startup notes |
+| `docs/generated/ADOPTION_CHECKLIST.md` | Adoption checklist |
+| `.harness/tasks/TASK_TEMPLATE.json` | Task packet template |
 
 ## Repository Layout
 
@@ -150,9 +172,9 @@ Episode records use the same append-safe naming rule.
 
 ## Supporting Docs
 
-- bootstrap: `docs/generated/BOOTSTRAP_STEPS.md`
-- adoption checklist: `docs/generated/ADOPTION_CHECKLIST.md`
-- readiness check: `docs/generated/REPO_READINESS_CHECK.md`
+- `docs/generated/BOOTSTRAP_STEPS.md`
+- `docs/generated/ADOPTION_CHECKLIST.md`
+- `docs/generated/REPO_READINESS_CHECK.md`
 
 ## Release Notes
 
