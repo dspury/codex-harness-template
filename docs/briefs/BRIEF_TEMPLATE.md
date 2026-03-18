@@ -1,25 +1,22 @@
-# Brief XXX - Title
+# Brief — Title
 
 ## Objective
+
 State the smallest concrete outcome this task should deliver.
 
-## Why
-State why the change matters in this repository.
-
 ## Scope
-- list the intended changes
-- keep the scope narrow
-- name the expected user or system behavior
+
+- List the intended changes
+- Keep scope narrow
+- Name the expected behavior when complete
 
 ## Acceptance Criteria
-- list observable completion conditions
-- prefer measurable outcomes
-- include validation expectations when relevant
+
+- List observable completion conditions
+- Prefer measurable outcomes
+- Include the validation command that proves it works
 
 ## Constraints
-- local-first
-- deterministic behavior
-- minimal dependencies
 
-## Out of Scope
-- list nearby ideas that should not be included
+- List boundaries the implementation must respect
+- Include what this task should NOT touch

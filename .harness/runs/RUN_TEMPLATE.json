@@ -1,0 +1,9 @@
+{
+  "run_id": "run-000",
+  "task_id": "task-000",
+  "status": "passed",
+  "summary": "Short execution summary",
+  "files_changed": [],
+  "tests_run": [],
+  "timestamp": "YYYY-MM-DD"
+}
